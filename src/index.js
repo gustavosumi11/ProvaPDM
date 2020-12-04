@@ -12,7 +12,7 @@ export default function App(){
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name="Carrinho de compras" component={Sacola}/>
+                <Stack.Screen name="Carrinho de compras"component={Sacola}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
